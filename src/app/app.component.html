@@ -9,9 +9,7 @@
   </mat-toolbar>
 
   <mat-sidenav-container class="container">
-    <mat-sidenav #sidenav mode="side" opened class="sidenav"
-                 [fixedInViewport]="false">
-      <!-- {{options.value.fixed ? 'Fixed' : 'Non-fixed'}} Sidenav -->
+    <mat-sidenav #sidenav mode="side" opened class="sidenav" [fixedInViewport]="false">
       <mat-nav-list>
           <a mat-list-item routerLink="/employees">Employees</a>
           <a mat-list-item routerLink="/create">
@@ -21,8 +19,6 @@
           </a>
         </mat-nav-list>
     </mat-sidenav>
-
-
     <router-outlet></router-outlet>
   </mat-sidenav-container>
 </ng-container>

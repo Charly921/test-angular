@@ -1,0 +1,662 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>test-employee documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">test-employee documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>CreateEmployeeComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/create-employee/create-employee.component.ts</code>
+</p>
+
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>Create employee component</p>
+
+    </p>
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-create-employee</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./create-employee.component.sass</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./create-employee.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#employeeForm">employeeForm</a>
+                            </li>
+                            <li>
+                                <a href="#isLoading">isLoading</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onDataSubmit">onDataSubmit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(formBuilder: <a href="https://angular.io/api/forms/FormBuilder" target="_blank">FormBuilder</a>, employeeService: <a href="../injectables/EmployeeService.html">EmployeeService</a>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/components/create-employee/create-employee.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Construction of create employee component</p>
+</div>
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>formBuilder</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/forms/FormBuilder" target="_blank" >FormBuilder</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>employeeService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/EmployeeService.html" target="_self" >EmployeeService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="27"
+                            class="link-to-prism">src/app/components/create-employee/create-employee.component.ts:27</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Form initialization </p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onDataSubmit"></a>
+                    <span class="name">
+                        <b>
+                            onDataSubmit
+                        </b>
+                        <a href="#onDataSubmit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onDataSubmit(form: <a href="https://angular.io/api/forms/NgForm" target="_blank">NgForm</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="36"
+                            class="link-to-prism">src/app/components/create-employee/create-employee.component.ts:36</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Submit data form </p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>form</td>
+                                    <td>
+                                                <code><a href="https://angular.io/api/forms/NgForm" target="_blank" >NgForm</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="employeeForm"></a>
+                        <span class="name">
+                            <b>
+                            employeeForm</b>
+                            <a href="#employeeForm"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/forms/FormGroup" target="_blank" >FormGroup</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/components/create-employee/create-employee.component.ts:15</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Instance of employee form </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isLoading"></a>
+                        <span class="name">
+                            <b>
+                            isLoading</b>
+                            <a href="#isLoading"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/components/create-employee/create-employee.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>State of loading </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { FormControl, FormGroupDirective, FormGroup, Validators, FormBuilder, NgForm } from &#x27;@angular/forms&#x27;;
+import { EmployeeService } from &#x27;src/app/services/employee.service&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+/**
+ * Create employee component
+ */
+@Component({
+  selector: &#x27;app-create-employee&#x27;,
+  templateUrl: &#x27;./create-employee.component.html&#x27;,
+  styleUrls: [&#x27;./create-employee.component.sass&#x27;]
+})
+export class CreateEmployeeComponent implements OnInit {
+  /** Instance of employee form */
+  employeeForm: FormGroup;
+  /** State of loading */
+  isLoading &#x3D; false;
+
+  /** Construction of create employee component*/
+  constructor(
+    private formBuilder: FormBuilder,
+    private employeeService: EmployeeService,
+    private router: Router
+    ) { }
+
+  /** Form initialization */
+  ngOnInit() {
+    this.employeeForm &#x3D; this.formBuilder.group({
+      name: [&#x27;&#x27;, [Validators.required]],
+      salary: [&#x27;&#x27;, [Validators.required]],
+      age: [&#x27;&#x27;, [Validators.required]]
+    });
+  }
+
+  /** Submit data form */
+  onDataSubmit(form: NgForm) {
+    this.isLoading &#x3D; true;
+    this.employeeService.createEmployee(form).subscribe(
+      result &#x3D;&gt; {
+        const id &#x3D; result[&#x27;id&#x27;];
+        this.isLoading &#x3D; false;
+        this.router.navigate([&#x27;/employee&#x27;, id]);
+      },
+      err &#x3D;&gt; {
+        console.log(err);
+        this.isLoading &#x3D; false;
+      });
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div&gt;
+  &lt;div *ngIf&#x3D;&quot;isLoading&quot;&gt;
+    &lt;mat-spinner *ngIf&#x3D;&quot;isLoading&quot; color&#x3D;&quot;accent&quot;&gt;&lt;/mat-spinner&gt;
+  &lt;/div&gt;
+  &lt;mat-card class&#x3D;&quot;card&quot;&gt;
+    &lt;form [formGroup]&#x3D;&quot;employeeForm&quot; (ngSubmit)&#x3D;&quot;onDataSubmit(employeeForm.value)&quot; autocomplete&#x3D;&quot;off&quot;&gt;
+      &lt;mat-card-header&gt;
+        &lt;mat-card-title&gt;Create Employee&lt;/mat-card-title&gt;
+      &lt;/mat-card-header&gt;
+      &lt;mat-card-content&gt;
+        &lt;mat-form-field appearance&#x3D;&quot;outline&quot; color&#x3D;&quot;accent&quot;&gt;
+          &lt;mat-label&gt;Employee Name&lt;/mat-label&gt;
+          &lt;input matInput formControlName&#x3D;&quot;name&quot;&gt;
+          &lt;mat-error&gt;
+            &lt;span *ngIf&#x3D;&quot;!employeeForm.get(&#x27;name&#x27;).valid &amp;&amp; employeeForm.get(&#x27;name&#x27;).touched&quot;&gt;Please enter Employee
+              Name&lt;/span&gt;
+          &lt;/mat-error&gt;
+        &lt;/mat-form-field&gt;
+        &lt;mat-form-field appearance&#x3D;&quot;outline&quot; color&#x3D;&quot;accent&quot;&gt;
+          &lt;mat-label&gt;Employee Salary&lt;/mat-label&gt;
+          &lt;input matInput formControlName&#x3D;&quot;salary&quot; type&#x3D;&quot;number&quot;&gt;
+          &lt;span matPrefix&gt;$&amp;nbsp;&lt;/span&gt;
+          &lt;mat-error&gt;
+            &lt;span *ngIf&#x3D;&quot;!employeeForm.get(&#x27;salary&#x27;).valid &amp;&amp; employeeForm.get(&#x27;salary&#x27;).touched&quot;&gt;Please enter Employee
+              Salary&lt;/span&gt;
+          &lt;/mat-error&gt;
+        &lt;/mat-form-field&gt;
+        &lt;mat-form-field appearance&#x3D;&quot;outline&quot; color&#x3D;&quot;accent&quot;&gt;
+          &lt;mat-label&gt;Employee Age&lt;/mat-label&gt;
+          &lt;input matInput formControlName&#x3D;&quot;age&quot; type&#x3D;&quot;number&quot;&gt;
+          &lt;mat-error&gt;
+            &lt;span *ngIf&#x3D;&quot;!employeeForm.get(&#x27;age&#x27;).valid &amp;&amp; employeeForm.get(&#x27;age&#x27;).touched&quot;&gt;Please enter Employee
+              Age&lt;/span&gt;
+          &lt;/mat-error&gt;
+        &lt;/mat-form-field&gt;
+      &lt;/mat-card-content&gt;
+      &lt;mat-card-actions&gt;
+        &lt;button type&#x3D;&quot;submit&quot; [disabled]&#x3D;&quot;!employeeForm.valid&quot; mat-flat-button color&#x3D;&quot;accent&quot;&gt;
+          &lt;span&gt;Save&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/mat-card-actions&gt;
+    &lt;/form&gt;
+  &lt;/mat-card&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./create-employee.component.sass</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">mat-spinner
+  margin: auto
+
+.card
+  width: 70%
+  margin: 2rem 15% 0 15%
+
+mat-form-field
+  width: 100%
+
+button
+  margin-left: 1rem
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div>  <div *ngIf="isLoading">    <mat-spinner *ngIf="isLoading" color="accent"></mat-spinner>  </div>  <mat-card class="card">    <form [formGroup]="employeeForm" (ngSubmit)="onDataSubmit(employeeForm.value)" autocomplete="off">      <mat-card-header>        <mat-card-title>Create Employee</mat-card-title>      </mat-card-header>      <mat-card-content>        <mat-form-field appearance="outline" color="accent">          <mat-label>Employee Name</mat-label>          <input matInput formControlName="name">          <mat-error>            <span *ngIf="!employeeForm.get(\'name\').valid && employeeForm.get(\'name\').touched">Please enter Employee              Name</span>          </mat-error>        </mat-form-field>        <mat-form-field appearance="outline" color="accent">          <mat-label>Employee Salary</mat-label>          <input matInput formControlName="salary" type="number">          <span matPrefix>$&nbsp;</span>          <mat-error>            <span *ngIf="!employeeForm.get(\'salary\').valid && employeeForm.get(\'salary\').touched">Please enter Employee              Salary</span>          </mat-error>        </mat-form-field>        <mat-form-field appearance="outline" color="accent">          <mat-label>Employee Age</mat-label>          <input matInput formControlName="age" type="number">          <mat-error>            <span *ngIf="!employeeForm.get(\'age\').valid && employeeForm.get(\'age\').touched">Please enter Employee              Age</span>          </mat-error>        </mat-form-field>      </mat-card-content>      <mat-card-actions>        <button type="submit" [disabled]="!employeeForm.valid" mat-flat-button color="accent">          <span>Save</span>        </button>      </mat-card-actions>    </form>  </mat-card></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CreateEmployeeComponent', 'selector': 'app-create-employee'},{'name': 'EmployeeComponent', 'selector': 'app-employee'},{'name': 'EmployeesComponent', 'selector': 'app-employees'},{'name': 'UpdateEmployeeComponent', 'selector': 'app-update-employee'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'CreateEmployeeComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'CreateEmployeeComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

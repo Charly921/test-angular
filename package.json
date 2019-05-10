@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "compodoc": "npx compodoc -p src/tsconfig.app.json",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

@@ -3,17 +3,25 @@ import { FormBuilder, FormGroup, Validators, NgForm } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
 import { EmployeeService } from 'src/app/services/employee.service';
 
+/**
+ * Update employee component.
+ *
+ * Can update a specific employee
+ */
 @Component({
   selector: 'app-update-employee',
   templateUrl: './update-employee.component.html',
   styleUrls: ['./update-employee.component.sass']
 })
 export class UpdateEmployeeComponent implements OnInit {
-
+  /** Instance of employee form */
   employeeForm: FormGroup;
+  /** Employee ID */
   id: number;
+  /** State of loading */
   isLoading = false;
 
+  /** Construction of update employee component*/
   constructor(
     private formBuilder: FormBuilder,
     private router: Router,
@@ -21,6 +29,7 @@ export class UpdateEmployeeComponent implements OnInit {
     private employeeService: EmployeeService
   ) { }
 
+  /** Form initialization */
   ngOnInit() {
     this.getEmployee(this.activatedRoute.snapshot.params['id']);
     this.employeeForm = this.formBuilder.group({
@@ -30,6 +39,7 @@ export class UpdateEmployeeComponent implements OnInit {
     });
   }
 
+  /** Get a specific employee to update */
   getEmployee(id: number) {
     this.employeeService.getEmployee(id).subscribe(employee => {
       this.id = employee.id;
@@ -41,6 +51,7 @@ export class UpdateEmployeeComponent implements OnInit {
     });
   }
 
+  /** Submit updated data form */
   onDataSubmit(form: NgForm) {
     this.isLoading = true;
     this.employeeService.updateEmployee(this.id, form).subscribe(

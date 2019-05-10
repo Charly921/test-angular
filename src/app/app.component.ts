@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { FormGroup, FormBuilder } from '@angular/forms';
-
+/**
+ * The main module
+ */
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,13 +9,4 @@ import { FormGroup, FormBuilder } from '@angular/forms';
 })
 export class AppComponent {
   title = 'test-employee';
-  /* options: FormGroup;
-
-  constructor(fb: FormBuilder) {
-    this.options = fb.group({
-      bottom: 0,
-      fixed: false,
-      top: 0
-    });
-  } */
 }
